@@ -2,7 +2,7 @@
 title: SpringBoot 实现 MySQL 百万级数据量导出并避免 OOM 的解决方案
 tags: [SpringBoot, MySQL, 海量数据]
 categories: [剑指 Offer II]
-index_img: /img/index_img/bigDataExport.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/bigDataExport.jpg    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 

@@ -2,7 +2,7 @@
 title: Redis相关知识
 tags: [Redis, 缓存]
 categories: [面试必备知识]
-index_img: /img/index_img/redis.png    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/redis.png    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 

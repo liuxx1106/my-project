@@ -2,7 +2,7 @@
 title: 再见了青春，这一次，真的要走了。（史上最佳告别信）
 tags: [CJ麦科勒姆, 告别, 青春]
 categories: [好文]
-index_img: /img/index_img/cj.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj.jpg    # 封面图
 sticky: 99
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
@@ -21,7 +21,7 @@ sticky: 99
 
 这就是我与开拓者之间的羁绊。我们彼此清楚，尽管拥有美好的过去，但故事将在这里迎来终章。
 
-![](../img/index_img/cj2.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj2.jpg)
 
 感谢克里斯-海耶斯（NBC评论员）的好意，但内情必须由我来说。因为这是非常私人化的事情，只有这样才是正确的。
 
@@ -31,7 +31,7 @@ sticky: 99
 
 因此当手机响起时，铃声听起来就像恐怖电影里的一样。大家都停下手中的事，我看了我的手机，确实是我经纪人的电话。利拉德看向我，眼神仿佛在说，“我的天，真的发生了？”
 
-![](../img/index_img/cj5.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj5.jpg)
 
 我们已经深陷交易流言很久了，以至于这对我们来说就像是玩笑。我们谈过很多，因为流言太多了，我们甚至不会太在意。
 
@@ -43,7 +43,7 @@ sticky: 99
 
 我们都在笑，要不然还能怎么样呢？
 
-![](../img/index_img/cj4.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj4.jpg)
 
 显然，当我晚上离开那栋楼时，我清楚这可能是我们在一起的最后时光。
 
@@ -51,7 +51,7 @@ sticky: 99
 
 我们家里有一个1个月大的宝宝，所以我和妻子都很难有深度睡眠，第二天早上6点我就和妻子起床喂奶。老实说，感觉有点舒服和惬意。
 
-![](../img/index_img/cj3.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj3.jpg)
 
 因为我们坐在自己的房子里，在这个我们热爱的城市里。太阳还没有升起，我半睡半醒，手里抱着我的儿子，所有父亲都明白这样的时刻难以用语言形容。
 
@@ -63,7 +63,7 @@ sticky: 99
 
 这一切绝不只是生意，波特兰是我的家。在同一个地方待了9年，你不可能不受到影响。我指的不是篮球，而是灵魂。
 
-![](../img/index_img/cj6.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj6.jpg)
 
 我还没想好如何跟大家道别。
 
@@ -73,7 +73,7 @@ sticky: 99
 
 你知道，当你在球队里有太多家人般的朋友时，你必须去额外买点球衣，这种感觉非常真实。（感谢我的朋友托德-弗西尔，他是NBA最好的放松教练，等到3月30日我们再次见面，我会给你带件球衣和30块麦乐鸡，放心！）
 
-![](../img/index_img/cj7.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj7.jpg)
 
 从某种程度上来说，我很庆幸当时没人在，自己可以最后一次看看更衣室并把东西一次拉走。因为我觉得如果撞见队友，我可能会不知所措。有趣的是，当利拉德看到椅子上的球衣时，他给我发来短信：“该死！兄弟，你把我弄哭了！”
 
@@ -85,7 +85,7 @@ sticky: 99
 
 我们会跟店家讨价还价，打7折，如果打7折就买。我们总会去Macy百货看看那里有什么，可能会要一杯冰沙，或是一个软椒盐卷饼。
 
-![](../img/index_img/cj8.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj8.jpg)
 
 记得在新秀赛季，我特别想买一只手表，但那对我来说太贵了，好像是3000美元吧。我怕买了会破产，以至于一次次地到柜台与店员讨价还价，心态大概是，下次吧，下次一定买。
 
@@ -111,7 +111,7 @@ sticky: 99
 
 我说：“你说的这些我都不信。”他说：“你会相信的。”
 
-![](../img/index_img/cj9.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj9.jpg)
 
 那年季后赛，我在对灰熊的比赛中得到33分，达米安赛后跑向我。
 
@@ -121,7 +121,7 @@ sticky: 99
 
 当然还有努尔基奇，我不会忘记大个子努尔基奇，我一生的波黑兄弟。
 
-![](../img/index_img/cj10.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj10.jpg)
 
 我永远不会忘记2019年他因腿部骨折整天窝在沙发，我经常会与他视频通话以确保他的情况。后来有一天，我决定拜访他家。当我走进屋里时，我听到的只有电视里传来的胡言乱语，然后他就把频道调到体育频道什么的。
 
@@ -135,7 +135,7 @@ sticky: 99
 
 我本以为那是一部严肃正剧，但随后努尔基奇就开始大笑和看向我，好像在说，“是不是很有趣？”这家伙疯了。
 
-![](../img/index_img/cj12.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj12.jpg)
 
 时不时地，努尔基奇家昂贵的进口猫会在房子里游荡，而他喝着他习惯的日常7到10杯咖啡。当你去努尔基奇家的时候，就是这种氛围。
 
@@ -145,7 +145,7 @@ sticky: 99
 
 他说：“是的，你的上一场比赛结束后我从器材室偷了一件。”
 
-![](../img/index_img/cj13.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj13.jpg)
 
 朋友们，这就是我的队友们。他们在我心里就是这样，不是赢家或输家，而是我的队友。当我写下这封信时，这些回忆不断在我的脑海中闪现。事实就是这样的。
 
@@ -161,7 +161,7 @@ sticky: 99
 
 都是诸如此类的小事。
 
-![](../img/index_img/cj14.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj14.jpg)
 
 西决被勇士横扫后，第一次来到波特兰市中心时，心里不确定这座城市会怎样对待我。但无数人走上前来说，“嘿，我想谢谢你们，那是一次轮令人敬畏的系列赛，我们爱你。”
 
@@ -171,7 +171,7 @@ sticky: 99
 
 我不会离开！不会，这里永远是我们的第二故乡。
 
-![](../img/index_img/cj15.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj15.jpg)
 
 在获悉交易的那天早上，当我坐在那儿思考接下来该做什么时，四周万籁俱寂。
 
@@ -189,7 +189,7 @@ sticky: 99
 
 在经历所有的流言蜚语后，交易最终完成了。没有闹剧，没有废话，完全的职业化。我还能再要求什么？
 
-![](../img/index_img/cj16.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj16.jpg)
 
 致波特兰的每一个人，致我的队友、球队、球迷，致整个社区。谢谢你们，这是我发自肺腑的感谢。
 
@@ -199,7 +199,7 @@ sticky: 99
 
 那天结束时，当我回想起这些，想到我们作为一支球队有如此深的感情，感觉很疯狂。在一个偏处西海岸一隅的小球市，我们制造了很多轰动，也制造了很多回忆。我们保持忠诚，每一天都用真心代表着这座城市。
 
-![](../img/index_img/cj11.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/cj11.jpg)
 
 我会永远为此自豪。
 

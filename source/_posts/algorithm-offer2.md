@@ -2,7 +2,7 @@
 title: 剑指 Offer II 002. 二进制加法
 tags: [LeetCode, 二进制加法]
 categories: [剑指 Offer II]
-index_img: /img/index_img/algorithm2.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm2.jpg    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 

@@ -2,7 +2,7 @@
 title: 剑指 Offer II 003. 前 n 个数字二进制中 1 的个数
 tags: [LeetCode, 奇偶性质]
 categories: [剑指 Offer II]
-index_img: /img/index_img/algorithm3.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm3.jpg    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 

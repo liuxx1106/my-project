@@ -2,7 +2,7 @@
 title: 剑指 Offer II 046. 二叉树的右侧视图
 tags: [LeetCode, 二叉树, 深度优先搜索]
 categories: [剑指 Offer II]
-index_img: /img/index_img/algorithm6.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm6.jpg    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 
@@ -13,7 +13,7 @@ index_img: /img/index_img/algorithm6.jpg    # 封面图
 
 #### 示例1
 
-![示例1](../img/content_img/offer6-1.png)
+![示例1](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/offer6-1.png)
 
 > 输入: [1,2,3,null,5,null,4]
 > 输出: [1,3,4]
@@ -40,7 +40,7 @@ index_img: /img/index_img/algorithm6.jpg    # 封面图
   - 遍历左边节点，如果curDeep > deep,且node.right有值，则为右侧元素加入结果；
   - 递归；
 
-![深度优先搜索图解](../img/content_img/offer6-2.png)
+![深度优先搜索图解](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/offer6-2.png)
 
 执行过程：
 

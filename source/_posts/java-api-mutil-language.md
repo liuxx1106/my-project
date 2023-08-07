@@ -2,7 +2,7 @@
 title: 接口层面集成翻译插件实现返回结果多语言的方案
 tags: [java, 多语言, api]
 categories: [java]
-index_img: /img/index_img/api-multi-language.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/api-multi-language.jpg    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 
@@ -124,7 +124,7 @@ params: {
 
 1.4 费用标准
 
-![](../img/content_img/tx.jpg)
+![](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/tx.jpg)
 
 #### 2. 百度翻译
 

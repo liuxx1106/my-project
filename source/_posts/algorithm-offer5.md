@@ -2,7 +2,7 @@
 title: 剑指 Offer II 009. 乘积小于 K 的连续子数组的个数
 tags: [LeetCode, 双指针]
 categories: [剑指 Offer II]
-index_img: /img/index_img/algorithm5.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm5.jpg    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 

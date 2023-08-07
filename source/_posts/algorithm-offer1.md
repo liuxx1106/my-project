@@ -2,7 +2,7 @@
 title: 剑指 Offer II 001. 整数除法
 tags: [LeetCode, 整数除法]
 categories: [剑指 Offer II]
-index_img: /img/index_img/algorithm1.jpg    # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm1.jpg    # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 ## 题目要求
