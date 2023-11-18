@@ -1,0 +1,192 @@
+---
+title: LeetCode24. 两两交换链表中的节点
+tags: [LeetCode, 链表]
+categories: [LeetCode]
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/leetcode24.png    # 封面图
+# banner_img: /img/post_banner.jpg  # 文章顶部大图
+---
+## 题目要求
+
+[leetcode地址](https://leetcode.cn/problems/swap-nodes-in-pairs/description/)
+
+* 难度：中等
+* 给你一个链表，两两交换其中相邻的节点，并返回交换后链表的头节点。你必须在不修改节点内部的值的情况下完成本题（即，只能进行节点交换）。 。
+
+示例 1：
+
+![示例1](https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/leetcode24-1.jpg)
+
+  >输入：head = [1,2,3,4]
+   输出：[2,1,4,3]
+
+示例 2：
+  > 输入：head = []
+输出：[]
+
+示例 3：
+  > 输入：head = [1]
+输出：[1]
+
+提示:
+
+* 链表中节点的数目在范围 [0, 100] 内
+* 0 <= Node.val <= 100
+
+## 思路
+
+1. 递归
+
+> 每次操作交换两个节点，剩余节点进行递归直到head或者head.next为null;
+
+2. 迭代
+
+> 我们的目标是每次取出两个节点，两两交换。因此我们可以定义虚拟头节点`dummy`,dummy.next = head,
+> 定义当前节点`curNode`,curNode = dummy; 每次取出curNode的后n1,n2两个节点交换，然后重新赋值curNode = n1,
+> 直到curNode没有下一个节点，或者只有一个节点，则无需交换，至此结束；
+
+3. 栈
+
+> 定义虚拟头节点p, 令head=p, 根据栈后进先出的特性，每次压入curNode和curNode.next,
+> 然后出栈依次加入p,剩余节点重复 此操作直到没有节点或只有一个节点时无需交换。
+> 需注意，若是奇数个节点，则最后剩余一个节点需补在最后。
+> 最后，返回head.next即可。
+
+## 代码实现（java）
+
+```java
+    public ListNode swapPairs(ListNode head) {
+        //1. 递归
+        if(head == null || head.next == null) {
+            return head;
+        }
+        ListNode rest = head.next.next; // 剩余节点
+        ListNode newHead = head.next; // 节点2为新的头节点
+        newHead.next = head; // 节点2指向节点1
+        head.next = swapPairs(rest); //节点1指向剩余节点
+        return newHead;
+        // 2. 迭代
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode curNode = dummy;
+        while(curNode.next != null && curNode.next.next != null) {
+            ListNode n1 = curNode.next;
+            ListNode n2 = curNode.next.next;
+            curNode.next = n2;
+            n1.next = n2.next;
+            n2.next = n1;
+            curNode = n1;
+        }
+        return dummy.next;
+        // 3. 栈
+        if(head == null || head.next == null) {
+            return head;
+        }
+        Deque<ListNode> stack = new ArrayDeque<>();
+        ListNode p = new ListNode(0);
+        ListNode cur = head;
+        head = p;
+        while(cur != null && cur.next != null) {
+            stack.push(cur);
+            stack.push(cur.next);
+            cur = cur.next.next;
+            p.next = stack.pop();
+            p = p.next;
+            p.next = stack.pop();
+            p = p.next;
+        }
+        if(cur != null) {
+            p.next = cur;
+        } else {
+            p.next = null;
+        }
+        return head.next;
+    }
+```
+
+## 代码实现（golang）
+
+```go
+//1. 递归
+package main
+
+import "fmt"
+
+type ListNode struct {
+ Val  int
+ Next *ListNode
+}
+
+func swapPairs(head *ListNode) *ListNode {
+ if head == nil || head.Next == nil {
+  return head
+ }
+ rest := head.Next.Next
+ newHead := head.Next
+ newHead.Next = head
+ head.Next = swapPairs(rest)
+ return newHead
+}
+
+func main() {
+ head := &ListNode{Val: 1}
+ node2 := &ListNode{Val: 2}
+ node3 := &ListNode{Val: 3}
+ node4 := &ListNode{Val: 4}
+ head.Next = node2
+ node2.Next = node3
+ node3.Next = node4
+
+ result := swapPairs(head)
+ for result != nil {
+  fmt.Print(result.Val, " ")
+  result = result.Next
+ }
+}
+
+//2.迭代
+package main
+
+import (
+ "fmt"
+)
+
+type ListNode struct {
+ Val  int
+ Next *ListNode
+}
+
+func swapPairs(head *ListNode) *ListNode {
+ if head == nil || head.Next == nil {
+  return head
+ }
+ p := &ListNode{Val: 0}
+ p.Next = head
+ curNode := p
+ for curNode.Next != nil && curNode.Next.Next != nil {
+  n1 := curNode.Next
+  n2 := curNode.Next.Next
+  curNode.Next = n2
+  n1.Next = n2.Next
+  n2.Next = n1
+  curNode = n1
+ }
+ return p.Next
+}
+
+func main() {
+ head := &ListNode{Val: 1}
+ node2 := &ListNode{Val: 2}
+ node3 := &ListNode{Val: 3}
+ node4 := &ListNode{Val: 4}
+ head.Next = node2
+ node2.Next = node3
+ node3.Next = node4
+
+ result := swapPairs(head)
+ for result != nil {
+  fmt.Print(result.Val, " ")
+  result = result.Next
+ }
+}
+
+```
