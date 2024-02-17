@@ -3,7 +3,7 @@ date: 2024-02-02 22:30:21
 title: LCR 061. 查找和最小的 K 对数字
 tags: [LeetCode, 堆]
 categories: [剑指 Offer II]
-index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm059.png   # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm061.png   # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 

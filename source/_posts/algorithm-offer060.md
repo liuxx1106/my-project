@@ -1,9 +1,9 @@
 ---
-date: 2024-01-12 21:00:00
+date: 2024-01-12 21:15:00
 title: LCR 060. 前 K 个高频元素
 tags: [LeetCode, 堆]
 categories: [剑指 Offer II]
-index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm059.png   # 封面图
+index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/algorithm060.png   # 封面图
 # banner_img: /img/post_banner.jpg  # 文章顶部大图
 ---
 
