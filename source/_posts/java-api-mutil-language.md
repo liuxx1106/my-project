@@ -1,4 +1,5 @@
 ---
+date: 2023-08-15 21:00:00
 title: 接口层面集成翻译插件实现返回结果多语言的方案
 tags: [java, 多语言, api]
 categories: [java]

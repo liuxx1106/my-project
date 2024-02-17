@@ -1,4 +1,5 @@
 ---
+date: 2023-07-25 21:00:00
 title: 剑指 Offer II 009. 乘积小于 K 的连续子数组的个数
 tags: [LeetCode, 双指针]
 categories: [剑指 Offer II]

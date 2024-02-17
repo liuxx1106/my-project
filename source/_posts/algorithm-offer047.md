@@ -1,4 +1,5 @@
 ---
+date: 2023-08-03 21:00:00
 title: 剑指 Offer II 047. 二叉树剪枝
 tags: [LeetCode, 二叉树, 深度优先搜索]
 categories: [剑指 Offer II]

@@ -1,4 +1,5 @@
 ---
+date: 2023-08-20 21:00:00
 title: Redis相关知识
 tags: [Redis, 缓存]
 categories: [面试必备知识]
