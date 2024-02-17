@@ -35,8 +35,6 @@ index_img: https://murphy-blog.oss-cn-hangzhou.aliyuncs.com/api-multi-language.j
 代码：
 
 ```java
-package org.jeecg.modules.dzcloud.utils;
-
 import com.tencentcloudapi.common.Credential;
 import com.tencentcloudapi.common.exception.TencentCloudSDKException;
 import com.tencentcloudapi.common.profile.ClientProfile;
